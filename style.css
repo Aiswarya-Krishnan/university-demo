@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.jpg);
     background-position:center;
     background-size:cover;
     position:relative;
@@ -331,5 +331,21 @@ h3{
     line-height: 22px;
     padding: 0;
     text-align:center;
+}
+
+footer{
+        width:100%;
+        background-color:#f2f2f2;
+    }
+    .pannel{
+        border-bottom:1px solid #ddd;
+        display:flex;
+        justify-content:space-between;
+        padding:10px;
+        height:40px;
+    }
+   
+a {
+    font-size: 15px;
 }
 
