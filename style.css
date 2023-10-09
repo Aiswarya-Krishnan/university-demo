@@ -347,5 +347,7 @@ footer{
    
 a {
     font-size: 15px;
+    justify-content:space-between;
+      display:flex;
 }
 
